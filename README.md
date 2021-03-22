@@ -2,7 +2,7 @@
 Visit the [website](http://www.aurorabuilder.com "Aurora Website") for more information about the Aurora character builder app.
 
 # Aurora Bestiary Project
-The goal of Aurora Bestiary is to give easy access to monster statblocks within the Aurora compendium.  <br>
+The goal of the Aurora Bestiary Project is to give easy access to monster statblocks within the Aurora compendium.  <br>
 
 ### Extending Content
 Go to the _Additional Content_ tab in Aurora, enter the URL of the index file, and have Aurora download the content to the custom folder for you. When these files get updated, Aurora will be able to keep content files up to date automatically. <br>

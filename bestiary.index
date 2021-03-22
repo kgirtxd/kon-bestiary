@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Bestiary</name>
+		<description>Monster statblocks from Wizards of the Coast to expand your core gaming elements.</description>
+		<author url="http://dnd.wizards.com">Wizards of the Coast</author>
+		<update version="0.0.1">
+			<file name="bestiary.index" url="https://raw.githubusercontent.com/Ouroboros-dnd/bestiary/master/bestiary.index" />
+		</update>
+	</info>
+	<files>
+
+
+	</files>
+</index>

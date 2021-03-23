@@ -2,35 +2,79 @@
 <elements>
 	<info>
 		<name>Template</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="template.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/bestiary/master/bestiary/template.xml" />
 		</update>
 	</info>
 
-	<element name="Monster Template" type="Information" source="Aurora Bestiary Project" id="ID_OBC_INFORMATION_STATBLOCK_TEMPLATE">
+	<element name="MonsterTemplate" type="Information" source="AuroraBestiaryProject" id="ID_OBC_INFORMATION_STATBLOCK_TEMPLATE">
 		<description>
 			<h3 style="margin-bottom:-20px;margin-top:-5px">MonsterTemplate</h3>
-			<p style="margin-bottom:20px"><em>Size thing</em></p>
-			<p  style="margin-top:20px"><strong>Armor Class</strong> 10 (natural armor)</p>
-			<p><strong>Hit Points</strong> 0000</p>
-			<p><strong>Speed.</strong> 30 ft.</p>
-			<table style="text-align:center">
+			<p style="margin-bottom:-5px"><em>Size thing, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 1</li>
+				<li><strong>Hit Points</strong> 0000 (0d0)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
 				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
-				<tr><td>10 (+0)</td><td>10 (+0)</td><td>10 (+0)</td><td>10 (+0)</td><td>10 (+0)</td><td>10 (+0)</td></tr>
+				<tr><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td></tr>
 			</table>
-			<p><strong>Damage Immunities</strong> HERE</p>
-			<p><strong>Condition Immunities</strong> HERE</p>
-			<p><strong>Senses</strong> darkvision 60 ft., passive Perception 10</p>
-			<p><strong>Languages</strong> HERE</p>
-			<p  style="margin-bottom:0px"><strong>Challenge</strong> — </p>
-			<h4 style="margin-top:5px; margin-buttom:20px" />
-			<!--any non-action features here-->
-			<h4 style="margin-top:5px; margin-bottom:-5px">Actions</h4>
-			<br/>
-			<p><strong><em>Action. </em></strong><em>Ranged Weapon Attack</em>: Here</p>
-			<h4 style="margin-top:5px; margin-bottom:-5px">Legendary Actions</h4>
-			<br/>
-			<p><strong><em>Action.</em></strong> Here</p>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> HERE</li>
+				<li><strong>Damage Immunities</strong> HERE</li>
+				<li><strong>Condition Immunities</strong> HERE</li>
+				<li><strong>Senses</strong> passive Perception 1</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> —</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled"> <!--any non-action features here-->
+				<li><strong>HERE.</strong> HERE</li>
+				<li><strong>HERE.</strong> HERE</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Attack. </em></strong><em>Melee Weapon Attack</em>: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing</li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Here. </em></strong> HERE</li>
+			</ul>
 		</description>
 	</element>
+
+	<!--<element name="Blood Hawk2" type="Information" source="Monster Manual" id="ID_MM_INFORMATION_STATBLOCK_BLOOD_HAWK2">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Blood Hawk2</h3>
+			<p style="margin-bottom:-5px"><em>Small beast, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 7 (2d6)</li>
+				<li><strong>Speed</strong> 10 ft., fly 60 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>6 (-2)</td><td>14 (+2)</td><td>10 (+0)</td><td>3 (-4)</td><td>14 (+2)</td><td>5 (-3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +4</li>
+				<li><strong>Senses</strong> passive Perception 14</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 1/8</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong>Keen Sight.</strong> The hawk has advantage on Wisdom (Perception) checks that rely on sight.</li>
+				<li><strong>Pack Tactics.</strong> The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally isn't incapacitated.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Beak. </em></strong><em>Melee Weapon Attack</em>: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing</li>
+			</ul>
+		</description>
+	</element> -->
+
 </elements>

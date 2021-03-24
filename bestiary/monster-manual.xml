@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name></name>
+		<update version="0.0.1">
+			<file name="monster-manual.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/bestiary/master/bestiary/monster-manual.xml" />
+		</update>
+	</info>
+
+	<element name="Aarakocra" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_AARAKOCRA">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Aarakocra</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (aarakocra), neutral good</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 13 (3d8)</li>
+				<li><strong>Speed</strong> 20 ft., fly 50 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>14 (+2)</td><td>10 (+0)</td><td>11 (+0)</td><td>12 (+1)</td><td>11 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +5</li>
+				<li><strong>Senses</strong> passive Perception 15</li>
+				<li><strong>Languages</strong> Auran</li>
+				<li><strong>Challenge</strong> 1/4</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Dive Attack. </em></strong>If the aarakocra is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the target.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Talon. </em></strong><em>Melee Weapon Attack:</em>  +4 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (ld4 + 2) slashing damage.</li>
+				<p></p>
+				<li><strong><em>Javelin. </em></strong><em>Melee or Ranged Weapon Attack:</em> +4 to hit, reach 5 ft. or range 30/120 ft., one target. <em>Hit:</em>  5 (ld6 + 2) piercing damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Aboleth" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_ABOLETH">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Aboleth</h3>
+			<p style="margin-bottom:-5px"><em>Large aberration, lawful evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (natural armor)</li>
+				<li><strong>Hit Points</strong>  135 (18d10 + 36)</li>
+				<li><strong>Speed</strong> 10 ft., swim 40 ft</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>21 (+5)</td><td>9 (-1)</td><td>15 (+2)</td><td>18 (+4)</td><td>15 (+2)</td><td>18 (+4)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong>  Con +6, Int +8, Wis +6</li>
+				<li><strong>Skills</strong> History +12, Perception +10</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 20</li>
+				<li><strong>Languages</strong> Deep Speech, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 10</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Amphibious.</em></strong> The aboleth can breathe air and water.</li>
+				<p></p>
+				<li><strong><em>Mucous Cloud.</em></strong> While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet ofit must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.</li>
+				<p></p>
+				<li><strong><em>Probing Telepathy.</em></strong> If a creature communicates telepathically with the aboleth, the aboleth learns the creature’s greatest desires if the aboleth can see the creature.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The aboleth makes three tentacle attacks.</li>
+				<p></p>
+				<li><strong><em>Tentacle. </em></strong><em>Melee Weapon Attack:</em> +9 to hit, reach 10 ft., one target. <em>Hit:</em> 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature’s skin becomes translucent and sliriiy, the creature can’t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.</li>
+				<p></p>
+				<li><strong><em>Tail. </em></strong><em>Melee Weapon Attack:</em> +9 to hit, reach 10 ft. one target. <em>Hit:</em> 15 (3d6 + 5) bludgeoning damage.</li>
+				<p></p>
+				<li><strong><em>Enslave (3/Day. </em></strong> The aboleth targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth's control and can’t take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.</li>
+				<li style="text-indent:1em;">Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.</li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<p>The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn.</p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Detect.</em></strong> The aboleth makes a Wisdom (Perception) check</li>
+				<p></p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Tail Swipe.</em></strong> The aboleth makes one tail attack.</li>
+				<p></p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Psychic Drain (Costs 2 Actions).</em></strong> One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.</li>
+			</ul>
+		</description>
+	</element>
+
+	<!--Angels-->
+	<element name="Deva" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_DEVA">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Deva</h3>
+			<p style="margin-bottom:-5px"><em>Medium celestial, lawful good</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (natural armor)</li>
+				<li><strong>Hit Points</strong> 136 (16d8 + 64)</li>
+				<li><strong>Speed</strong> 30 ft., fly 90 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>18 (+4)</td><td>18 (+4)</td><td>18 (+4)</td><td>17 (+3)</td><td>20 (+5)</td><td>20 (+5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong>  Wis +9, Cha +9</li>
+				<li><strong>Skills</strong> Insight +7, Perception +9</li>
+				<li><strong>Damage Resistances</strong> radiant; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 19</li>
+				<li><strong>Languages</strong> all, telepathy 120 ft</li>
+				<li><strong>Challenge</strong> 10</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Angelic Weapons.</em></strong> The deva’s weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra 4d8 radiant damage (included in the attack).</li>
+				<p></p>
+				<li><strong><em>Innate Spellcasting.</em></strong> The deva’s spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components:</li>
+				<p></p>
+				<li>At will: detect evil and good</li>
+				<li>1/day each: commune, raise dead</li>
+				<p></p>
+				<li><strong><em>Magic Resistance.</em></strong> The deva has advantage on saving throws against spells and other magical effects.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The deva makes two melee attacks.</li>
+				<p></p>
+				<li><strong><em>Mace. </em></strong><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.</li>
+				<p></p>
+				<li><strong><em>Healing Touch (3/Day). </em></strong>The deva touches another creature. The target magically regains 20 (4d8 + 2) hit points and is freed from any curse, disease, poison, blindness, or deafness.</li>
+				<p></p>
+				<li><strong><em>Change Shape. </em></strong>The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form ifit dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva’s choice).</li>
+				 <li style="text-indent:1em;">In a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those ofthe new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Planetar" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_PLANETAR">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Planetar</h3>
+			<p style="margin-bottom:-5px"><em>Large celestial, lawful good</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 19 (natural armor)</li>
+				<li><strong>Hit Points</strong> 200 (16d10 + 112)</li>
+				<li><strong>Speed</strong> 40 ft., fly 120 ft</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>24 (+7)</td><td>20 (+5)</td><td>24 (+7)</td><td>19 (+4)</td><td>22 (+6)</td><td>25 (+7)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Con +12, Wis +11, Cha +12</li>
+				<li><strong>Skills</strong> Perception +11</li>
+				<li><strong>Damage Resistances</strong> radiant; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened</li>
+				<li><strong>Senses</strong> truesight 120 ft., passive Perception 21</li>
+				<li><strong>Languages</strong> all, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 16</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Angelic Weapons.</em></strong> The planetar’s weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra 5d8 radiant damage (included in the attack).</li>
+				<p></p>
+				<li><strong><em>Divine Awareness.</em></strong> The planetar knows if it hears a lie.</li>
+				<p></p>
+				<li><strong><em>Innate Spellcasting.</em></strong> The planetar’s spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components:</li>
+				<p></p>
+				<li>3/day each: blade barrier, dispel evil and good, flame strike, raise dead</li>
+				<li>1/day each: commune, control weather, insect plague</li>
+				<p></p>
+				<li><strong><em>Magic Resistance.</em></strong> The planetar has advantage on saving throws against spells and other magical effects.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The planetar makes two melee attacks.</li>
+				<p></p>
+				<li><strong><em>Greatsword. </em></strong><em>Melee Weapon Attack:</em> +12 to hit, reach 5 ft., one target. <em>Hit:</em> 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage.</li>
+				<p></p>
+				<li><strong><em>Healing Touch (4/Day). </em></strong>The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Solar" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_SOLAR">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Solar</h3>
+			<p style="margin-bottom:-5px"><em>Large celestial, lawful good</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 21 (natural armor)</li>
+				<li><strong>Hit Points</strong> 243 (18d10 + 144)</li>
+				<li><strong>Speed</strong> 50 ft., fly 150 ft</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>26 (+8)</td><td>22 (+6)</td><td>26 (+8)</td><td>25 (+7)</td><td>25 (+7)</td><td>30 (+10)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Int +14, Wis +14, Cha +17</li>
+				<li><strong>Skills</strong> Perception +14</li>
+				<li><strong>Damage Resistances</strong> radiant; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> necrotic, poison</li>
+				<li><strong>Condition Immunities</strong>  charmed, exhaustion, frightened, poisoned</li>
+				<li><strong>Senses</strong> truesight 120 ft., passive Perception 24</li>
+				<li><strong>Languages</strong> all, telepathy 120 ft</li>
+				<li><strong>Challenge</strong> 21</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Angelic Weapons.</em></strong> The solar’s weapon attacks are magical. When the solar hits with any weapon, the weapon deals an extra 6d8 radiant damage (included in the attack).</li>
+				<p></p>
+				<li><strong><em>Divine Awareness.</em></strong> The solar knows if it hears a lie.</li>
+				<p></p>
+				<li><strong><em>Innate Spellcasting.</em></strong> The solar’s spellcasting ability is Charisma (spell save DC 25). It can innately cast the following spells, requiring no material components:</li>
+				<p></p>
+				<li>At will: detect evil and good, invisibility (self only)</li>
+				<li>3/day each: blade barrier, dispel evil and good, resurrection</li>
+				<li>1/day each: commune, control weather</li>
+				<p></p>
+				<li><strong><em>Magic Resistance.</em></strong> The solar has advantage on saving throws against spells and other magical effects.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The solar makes two greatsword attacks.</li>
+				<p></p>
+				<li><strong><em>Greatsword. </em></strong><em>Melee Weapon Attack:</em> +15 to hit, reach 5 ft., one target. <em>Hit:</em> 22 (4d6 + 8) slashing damage plus 27 (6d8) radiant damage.</li>
+				<p></p>
+				<li><strong><em>Slaying Longbow. </em></strong><em>Ranged Weapon Attack:</em> +13 to hit, range 120/600 ft., one target. <em>Hit:</em> 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the target is a creature that has 100 hit points or fewer, it must succeed on a DC 15 Constitution saving throw or die.</li>
+				<p></p>
+				<li><strong><em>Flying Sword. </em></strong>The solar releases its greatsword to hover magically in an unoccupied space within 5 feet ofit. If the solar can see the sword, the solar can mentally command it as a bonus action to fly up to 50 feet and either make one attack against a target or return to the solar’s hands. If the hovering sword is targeted by any effect, the solar is considered to be holding it. The hovering sword falls if the solar dies.</li>
+				<p></p>
+				<li><strong><em>Healing Touch (4/Day). </em></strong>The solar touches another creature. The target magically regains 40 (8d8 + 4) hit points and is freed from any curse, disease, poison, blindness, or deafness.</li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<p>The solar can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The solar regains spent legendary actions at the start ofits turn.</p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Teleport. </em></strong> The solar magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</li>
+				<p></p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Searing Burst (Costs 2 Actions). </em></strong> The solar emits magical, divine energy. Each creature of its choice in a 10-foot radius must make a DC 23 Dexterity saving throw, taking 14 (4d6) fire damage plus 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one.</li>
+				<p></p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Blinding Gaze (Costs 3 Actions). </em></strong> The solar targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a DC 15 Constitution saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.</li>
+			</ul>
+		</description>
+	</element>
+	<!--/Angels-->
+
+	<!--Animated Objects-->
+	<element name="Animated Armor" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_ANIMATED_ARMOR">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Animated Armor</h3>
+			<p style="margin-bottom:-5px"><em>Medium construct, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 18 (natural armor)</li>
+				<li><strong>Hit Points</strong> 33 (6d8 + 6)</li>
+				<li><strong>Speed</strong> 25 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>14 (+2)</td><td>11 (+0)</td><td>13 (+1)</td><td>1 (-5)</td><td>3 (-4)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Immunities</strong> poison, psychic</li>
+				<li><strong>Condition Immunities</strong>  blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned</li>
+				<li><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius), passive Perception 6</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 1</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Antimagic Susceptibility.</em></strong> The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.</li>
+				<p></p>
+				<li><strong><em>False Appearance.</em></strong> While the armor remains motionless, it is indistinguishable from a normal suit of armor.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The armor makes two melee attacks.</li>
+				<p></p>
+				<li><strong><em>Slam. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) bludgeoning damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Flying Sword" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_FLYING_SWORD">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Flying Sword</h3>
+			<p style="margin-bottom:-5px"><em>Small construct, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (natural armor)</li>
+				<li><strong>Hit Points</strong> 17 (5d6)</li>
+				<li><strong>Speed</strong> 0 ft., fly 5O ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>12 (+1)</td><td>15 (+2)</td><td>11 (+0)</td><td>1 (-5)</td><td>5 (-3)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Dex +4</li>
+				<li><strong>Damage Immunities</strong> poison, psychic</li>
+				<li><strong>Condition Immunities</strong> blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned</li>
+				<li><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius), passive Perception 7</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 1/4</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Antimagic Susceptibility.</em></strong> The sword is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.</li>
+				<p></p>
+				<li><strong><em>False Appearance.</em></strong> While the sword remains motionless and isn’t flying, it is indistinguishable from a normal sword.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Longsword. </em></strong><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d8 + 1) slashing damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Rug of Smothering" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_RUG_OF_SMOTHERING">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Rug of Smothering</h3>
+			<p style="margin-bottom:-5px"><em>Large construct, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 33 (6d10)</li>
+				<li><strong>Speed</strong> 10 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>17 (+3)</td><td>14 (+3)</td><td>10 (+0)</td><td>1 (-5)</td><td>3 (-4)</td><td>1 (-5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Immunities</strong> poison, psychic</li>
+				<li><strong>Condition Immunities</strong> blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned</li>
+				<li><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius), passive Perception 6</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 2</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Antimagic Susceptibility.</em></strong> The rug is incapacitated while in the area of an antimagicfield. If targeted by dispel magic, the rug must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.</li>
+				<p></p>
+				<li><strong><em>Damage Transfer.</em></strong> While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature grappled by the rug takes the other half.</li>
+				<p></p>
+				<li><strong><em>False Appearance.</em></strong> While the rug remains motionless, it is indistinguishable from a normal rug.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Smother. </em></strong><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one Medium or smaller creature. <em>Hit:</em> The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk ofsuffocating, and the rug can't smother another target. In addition, at the start ofeach ofthe target's turns, the target takes 10 (2d6 + 3) bludgeoning damage.</li>
+			</ul>
+		</description>
+	</element>
+	<!--/Animated Objects-->
+
+	<element name="Ankheg" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_ANKHEG">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Ankheg</h3>
+			<p style="margin-bottom:-5px"><em>Large monstrosity, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14 (natural armor), 11 while prone</li>
+				<li><strong>Hit Points</strong>  39 (6d10 + 6)</li>
+				<li><strong>Speed</strong> 30 ft., burrow 10 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>17 (+3)</td><td>11 (+0)</td><td>13 (+1)</td><td>1 (-5)</td><td>13 (+1)</td><td>6 (-2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Senses</strong> darkvision 60 ft., tremorsense 60 ft., passive Perception 11</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 2</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.<em>Hit:</em> 9 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.</li>
+				<p></p>
+				<li><strong><em>Acid Spray (Recharge 6). </em></strong>The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Azer" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_AZER">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Azer</h3>
+			<p style="margin-bottom:-5px"><em>Medium elemental, lawful neutral</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (natural armor, shield)</li>
+				<li><strong>Hit Points</strong> 39 (6d8 + 12)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>17 (+3)</td><td>12 (+1)</td><td>15 (+2)</td><td>12 (+1)</td><td>13 (+1)</td><td>10 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Con +4</li>
+				<li><strong>Damage Immunities</strong> fire, poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> passive Perception 11</li>
+				<li><strong>Languages</strong> Ignan</li>
+				<li><strong>Challenge</strong> 2</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Heated Body.</em></strong> A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes 5 (1d1O) fire damage.</li>
+				<p></p>
+				<li><strong><em>Heated Weapons.</em></strong> When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack).</li>
+				<p></p>
+				<li><strong><em>Illumination.</em></strong> The azer sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Warhammer. </em></strong><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) bludgeoning damage, or 8 (1d1O + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Banshee" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BANSHEE">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Banshee</h3>
+			<p style="margin-bottom:-5px"><em> Medium undead, chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 58 (13d8)</li>
+				<li><strong>Speed</strong> 0 ft., fly 40 ft. (hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (-5)</td><td>14 (+2)</td><td>10 (+0)</td><td>12 (+1)</td><td>11 (+0)</td><td>17 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Wis +2, Cha +4</li>
+				<li><strong>Damage Resistances</strong> acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> cold, necrotic, poison</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li>
+				<li><strong>Languages</strong> Common, Elvish</li>
+				<li><strong>Challenge</strong> 4</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Detect Life.</em></strong> The banshee can magically sense the presence of living creatures up to 5 miles away. She knows the general direction they’re in but not their exact locations.</li>
+				<p></p>
+				<li><strong><em>Incorporeal Movement.</em></strong> The banshee can move through other creatures and objects as if they were difficult terrain, She takes 5 (1d1O) force damage if she ends her turn inside an object.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Corrupting Touch. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (3d6 + 2) necrotic damage.</li>
+				<p></p>
+				<li><strong><em>Horrifying Visage. </em></strong>Each non-undead creature within 60 feet of the banshee that can see her much succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end ofeach ofits turns, with disadvantage ifthe banshee is within line of sight, ending the effect on itself on a success. Ifa target's saving throw is successful or the effect ends for it, the target is immune to the banshee’s Horrifying Visage for the next 24 hours.</li>
+				<p></p>
+				<li><strong><em>Wail (1/Day). </em></strong>The banshee releases a mournful wail, provided that she isn’t in sunlight. This wail has no effect on constructs I and undead. All other creatures within 30 feet of her that can hear her must make a DC 13 Constitution saving throw. On a failure, a creature drops to 0 hit points. On a success, a creature takes 10 (3d6) psychic damage</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Basilisk" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BASILISK">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Basilisk</h3>
+			<p style="margin-bottom:-5px"><em>Medium monstrosity, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (natural armor)</li>
+				<li><strong>Hit Points</strong> 52 (8d8 + 16)</li>
+				<li><strong>Speed</strong> 20 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 9</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 3</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Petrifying Gaze.</em></strong> If a creature starts its turn within 30 feet of the basilisk and the two of them can see each other, the basilisk can force the creature to make a DC 12 Constitution saving throw if the basilisk isn’t incapacitated. On a failed save, the creature magically begins to turn to stone and is restrained. It must repeat the saving throw at the end ofits next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic.</li>
+				<li style="text-indent:1em;">A creature that isn’t surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can’t see the basilisk until the start of its next turn, when it can avert its eyes again. Ifit looks at the basilisk in the meantime, it must immediately make the save.</li>
+				<li style="text-indent:1em;">If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage plus 7 (2d6) poison damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Behir" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BEHIR">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Behir</h3>
+			<p style="margin-bottom:-5px"><em>Huge monstrosity, neutral evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (natural armor)</li>
+				<li><strong>Hit Points</strong> 168 (16d12 + 64)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +6, Stealth +7</li>
+				<li><strong>Damage Immunities</strong> lightning</li>
+				<li><strong>Senses</strong> darkvision 90 ft., passive Perception 16</li>
+				<li><strong>Languages</strong> Draconic</li>
+				<li><strong>Challenge</strong> 11</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The behir makes two attacks: one with its bite and one to constrict.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 22 (3d10 + 6) piercing damage</li>
+				<p></p>
+				<li><strong><em>Constrict. </em></strong><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one Large or smaller creature. <em>Hit:</em> 17 (2dl0 + 6) bludgeoning damage plus 17 (2d10 + 6) slashing damage. The target is grappled (escape DC 16) if the behir isn’t already constricting a creature, and the target is restrained until this grapple ends.</li>
+				<p></p>
+				<li><strong><em>Lightning Breath (Recharge 5-6). </em></strong>The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.</li>
+				<p></p>
+				<li><strong><em>Swallow. </em></strong>The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the behir, and it takes 21 (6d6) acid damage at the start of each of the behir’s turns. A behir can have only one creature swallowed at a time.</li>
+				<li style="text-indent:1em;">If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.</li>
+			</ul>
+		</description>
+	</element>
+
+	<!--Beholders-->
+	<element name="Beholder" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BEHOLDER">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Beholder</h3>
+			<p style="margin-bottom:-5px"><em>Large aberration, lawful evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 18 (natural armor)</li>
+				<li><strong>Hit Points</strong> 180 (19d10 + 76)</li>
+				<li><strong>Speed</strong> 0 ft., fly 20 ft. (hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>14 (+2)</td><td>18 (+4)</td><td>17 (+3)</td><td>15 (+2)</td><td>7 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Int +8, Wis +7, Cha +8</li>
+				<li><strong>Skills</strong> Perception +12</li>
+				<li><strong>Condition Immunities</strong> prone</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 22</li>
+				<li><strong>Languages</strong> Deep Speech, Undercommon</li>
+				<li><strong>Challenge</strong> 13</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Antimagic Cone.</em></strong> The beholder’s central eye creates an area of antimagic, as in the <em>antimagic field</em> spell, in a 150-foot cone. At the start of each of its turns, the beholder decides which way 1 the cone faces and whether the cone is active. The area works against the beholder’s own eye rays.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 14 (4d6) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Eye Rays. </em></strong>The beholder shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:</li>
+				<p></p>
+				<li style="text-indent:1em;">1.<em>Charm Ray. </em>The targeted creature must succeed on a DC 16 Wisdom saving throw or be charmed by the beholder for 1 hour, or until the beholder harms the creature.</li>
+				<li style="text-indent:1em;">2.<em>Paralyzing Ray. </em>The targeted creature must succeed on a DC 16 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+				<li style="text-indent:1em;">3.<em>Fear Ray. </em>The targeted creature must succeed on a DC 16 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+				<li style="text-indent:1em;">4.<em>Slowing Ray. </em>The targeted creature must succeed on a DC 16 Dexterity saving throw. On a failed save, the target’s speed is halved for 1 minute. In addition, the creature can’t take reactions, and it can take either an action or a bonus action on its turn, not bofh. The creature can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</li>
+				<li style="text-indent:1em;">5.<em>Enervation Ray. </em>The targeted creature must make a DC 16 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one.</li>
+				<li style="text-indent:1em;">6.<em>Telekinetic Ray. </em>If the target is a creature, it must succeed on a DC 16 Strength saving throw or the beholder moves it up to 30 feet in any direction. It is restrained by the ray's telekinetic grip until the start of the beholder’s next turn or until the beholder is incapacitated. </li>
+				<li style="text-indent:1em;">If the target is an object weighing 300 pounds or less that isn’t being worn or carried, it is moved up to 30 feet in any direction. The beholder can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container.</li>
+				<li style="text-indent:1em;">7.<em>Sleep Ray. </em>The targeted creature must succeed on a DC 16 Wisdom saving throw or fall asleep and remain unconscious for 1 minute. The target awakens ifit takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead.</li>
+				<li style="text-indent:1em;">8.<em>Petrification Ray. </em>The targeted creature must make a DC 16 Dexterity saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end ofits next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic.</li>
+				<li style="text-indent:1em;">9.<em>Disintegration Ray. </em>If the target is a creature, it must succeed on a DC 16 Dexterity saving throw or take 45 (10d8) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.</li>
+				<li style="text-indent:1em;">If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it.</li>
+				<li style="text-indent:1em;">10.<em>Death Ray. </em>The targeted creature must succeed on a DC 16 Dexterity saving throw or take 55 (10d10) necrotic damage. The target dies if the ray reduces it to 0 hit points.</li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<p>The beholder can take 3 legendary actions, using the Eye Ray option below. It can take only one legendary action at a time and only at the end of another creature’s turn. The beholder regains spent legendary actions at the start of its turn.</p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Eye Ray. </em></strong>The beholder uses one random eye ray.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Death Tyrant" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_DEATH_TYRANT">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Death Tyrant</h3>
+			<p style="margin-bottom:-5px"><em>Large undead, lawful evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 19 (natural armor)</li>
+				<li><strong>Hit Points</strong> 187 (25d10 + 50)</li>
+				<li><strong>Speed</strong> 0 ft., fly 20 ft. (hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>14 (+2)</td><td>14 (+2)</td><td>19 (+4)</td><td>15 (+2)</td><td>19 (+4)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +5, Con +7, Int +9, Wis +7, Cha +9</li>
+				<li><strong>Skills</strong> Perception +12</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, paralyzed, petrified, poisoned, prone</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 22</li>
+				<li><strong>Languages</strong> Deep Speech, Undercommon</li>
+				<li><strong>Challenge</strong> 14</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Negative Energy Cone.</em></strong> The death tyrant’s central eye emits an invisible, magical 150-foot cone of negative energy. At the start of each of its turns, the tyrant decides which way the cone faces and whether the cone is active.</li>
+				<li style="text-indent:1em;">Any creature in that area can’t regain hit points. Any humanoid that dies there becomes a zombie under the tyrant’s command. The dead humanoid retains its place in the initiative order and animates at the start ofits next turn, provided that its body hasn't been completely destroyed.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 14 (4d6) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Eye Rays. </em></strong> The death tyrant shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet ofit:</li>
+				<p></p>
+				<li style="text-indent:1em;">1.<em>Charm Ray. </em>The targeted creature must succeed on a DC 17 Wisdom saving throw or be charmed by the tyrant for 1 hour, or until the beholder harms the creature.</li>
+				<li style="text-indent:1em;">2.<em>Paralyzing Ray. </em>The targeted creature must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+				<li style="text-indent:1em;">3.<em>Fear Ray. </em>The targeted creature must succeed on a DC 17 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+				<li style="text-indent:1em;">4.<em>Slowing Ray. </em>The targeted creature must succeed on a DC 17 Dexterity saving throw. On a failed save the target’s speed is halved for 1 minute. In addition, the creature can’t take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</li>
+				<li style="text-indent:1em;">5.<em>Enervation Ray. </em>The targeted creature must make a DC 17 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one.</li>
+				<li style="text-indent:1em;">6.<em>Telekinetic Ray. </em> If the target is a creature, it must succeed on a DC 17 Strength saving throw or the tyrant moves it up to 30 feet in any direction. The target is restrained by the ray's telekinetic grip until the start of the tyrant’s next turn or until the tyrant is incapacitated.</li>
+				<li style="text-indent:1em;">Ifthe target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The tyrant can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container.</li>
+				<li style="text-indent:1em;">7.<em>Sleep Ray. </em>The targeted creature must succeed on a DC 17 Wisdom saving throw or fall asleep and remain unconscious for 1 minute. The target awakens ifit takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead.</li>
+				<li style="text-indent:1em;">8.<em>Petrification Ray. </em>The targeted creature must make a DC 17 Dexterity saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end ofits next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic.</li>
+				<li style="text-indent:1em;">9.<em>Disintegration Ray. </em> Ifthe target is a creature, it must succeed on a DC 17 Dexterity saving throw or take 45 (10d8) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.</li>
+				<li style="text-indent:1em;">If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it.</li>
+				<li style="text-indent:1em;">10.<em>Death Ray. </em>The targeted creature must succeed on a DC 17 Dexterity saving throw or take 55 (10d10) necrotic damage. The target dies if the ray reduces it to 0 hit points.</li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<p>The death tyrant can take 3 legendary actions, using the Eye Ray option below. It can take only one legendary action at a time and only at the end of another creature's turn. The tyrant regains spent legendary actions at the start of its turn.</p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Eye Ray. </em></strong>The death tyrant uses one random eye ray.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Spectator" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_SPECTATOR">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Spectator</h3>
+			<p style="margin-bottom:-5px"><em>Medium aberration, lawful neutral</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14 (natural armor)</li>
+				<li><strong>Hit Points</strong> 39 (6d8 + 12)</li>
+				<li><strong>Speed</strong> 0 ft., fly 30 ft. (hover)</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>8 (-1)</td><td>14 (+2)</td><td>14 (+2)</td><td>13 (+1)</td><td>14 (+2)</td><td>11 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +6</li>
+				<li><strong>Condition Immunities</strong> prone</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 16</li>
+				<li><strong>Languages</strong> Deep Speech, Undercommon, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 3</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +1 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (ld6 - 1) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Eye Rays. </em></strong><em>The spectator shoots up to two of the following magical eye rays at one or two creatures it can see within 90 feet of it. It can use each ray only once on a turn.</li>
+				<p></p>
+				<li style="text-indent:1em;">1.<em>Confusion Ray. </em>The target must succeed on a DC 13 Wisdom saving throw, or it can’t take reactions until the end of its next turn. On its turn, the target can’t move, and it uses its action to make a melee or ranged attackagainst a randomly determined creature within range. If the target can’t attack, it does nothing on its turn.</li>
+				<li style="text-indent:1em;">2.<em>Paralyzing Ray. </em>The target must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+				<li style="text-indent:1em;">3.<em>Fear Ray. </em>The target must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the spectator is visible to the target, ending the effect on itself on a success.</li>
+				<li style="text-indent:1em;">4.<em>Wounding Ray. </em>The target must make a DC 13 Constitution saving throw, taking 16 (3d10) necrotic damage on a failed save, or half as much damage on a successful one.</li>
+				<p></p>
+				<li><strong><em>Create Food and Water. </em></strong>The spectator magically creates enough food and water to sustain itself for 24 hours.</li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Spell Reflection. </em></strong>If the spectator makes a successful saving throw against a spell, or a spell attack misses it, the spectator can choose another creature (including the spellcaster) it can see within 30 feet ofit. The spell targets the chosen creature instead of the spectator. Ifthe spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature.</li>
+			</ul>
+		</description>
+	</element>
+	<!--/Beholders-->
+
+	<!--Blights-->
+	<element name="Needle Blight" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_NEEDLE_BLIGHT">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Needle Blight</h3>
+			<p style="margin-bottom:-5px"><em>Medium plant, neutral evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12 (natural armor)</li>
+				<li><strong>Hit Points</strong> 11 (2d8 + 2)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>12 (+1)</td><td>12 (+1)</td><td>13 (+1)</td><td>4 (-3)</td><td>8 (-1)</td><td>3 (-4)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Condition Immunities</strong> blinded, deafened</li>
+				<li><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius), passive Perception 9</li>
+				<li><strong>Languages</strong> understands Common but can't speak</li>
+				<li><strong>Challenge</strong> 1/4</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Claws. </em></strong><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (2d4 + 1) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Needles. </em></strong><em>Ranged Weapon Attack:</em> +3 to hit, range 30/60 ft., one target. <em>Hit:</em> 8 (2d6 + 1) piercing damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Twig Blight" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_TWIG_BLIGHT">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Twig Blight</h3>
+			<p style="margin-bottom:-5px"><em>Small plant, neutral evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 13 (natural armor)</li>
+				<li><strong>Hit Points</strong> 4 (1d6 + 1)</li>
+				<li><strong>Speed</strong> 20 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Stealth +3</li>
+				<li><strong>Damage Vulnerabilities</strong> fire</li>
+				<li><strong>Condition Immunities</strong> blinded, deafened</li>
+				<li><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius), passive Perception 9</li>
+				<li><strong>Languages</strong> understands Common but can’t speak</li>
+				<li><strong>Challenge</strong> 1/8</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>False Appearance.</em></strong> While the blight remains motionless, it is indistinguishable from a dead shrub.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Claws. </em></strong><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d4 + 1) piercing damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Vine Blight" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_VINE_BLIGHT">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Vine Blight</h3>
+			<p style="margin-bottom:-5px"><em>Medium plant, neutral evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12 (natural armor)</li>
+				<li><strong>Hit Points</strong> 26 (4d8 + 8)</li>
+				<li><strong>Speed</strong> 10 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>15 (+2)</td><td>8 (-1)</td><td>14 (+2)</td><td>5 (-3)</td><td>10 (+0)</td><td>3 (-4)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Stealth +1</li>
+				<li><strong>Condition Immunities</strong> blinded, deafened</li>
+				<li><strong>Senses</strong> blindsight 60 ft. (blind beyond this radius), passive Perception 10</li>
+				<li><strong>Languages</strong> Common</li>
+				<li><strong>Challenge</strong> 1/2</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>False Appearance.</em></strong> While the blight remains motionless, it is indistinguishable from a tangle of vines.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Constrict. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 10 ft., one target. <em>Hit:</em> 9 (2d6 + 2) bludgeoning damage, and a Large or smaller target is grappled (escape DC 12). Until this grapple ends, the target.</li>
+				<p></p>
+				<li><strong><em>Entangling Plants (Recharge 5-6). </em></strong>Grasping roots and vines sprout in a 15-foot radius centered on the blight, withering away after 1 minute. For the duration, that area is difficult terrain for nonplant creatures. In addition, each creature of the blight’s choice in that area when the plants appear must succeed on a DC 12 Strength saving throw or become restrained. A creature can use its action to make a DC 12 Strength check, freeing itself or another entangled creature within reach on a success.</li>
+			</ul>
+		</description>
+	</element>
+	<!--/Blights-->
+
+
+
+
+
+	<!--
+
+	<element name="MonsterTemplate" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">MonsterTemplate</h3>
+			<p style="margin-bottom:-5px"><em>Size thing, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 1</li>
+				<li><strong>Hit Points</strong> 0000 (0d0)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> HERE</li>
+				<li><strong>Skills</strong> HERE</li>
+				<li><strong>Damage Resistances</strong> HERE</li>
+				<li><strong>Damage Immunities</strong> HERE</li>
+				<li><strong>Condition Immunities</strong> HERE</li>
+				<li><strong>Senses</strong> passive Perception 1</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> —</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>HERE.</em></strong> HERE</li>
+				<p></p>
+				<li><strong><em>HERE.</em></strong> HERE</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Attack. </em></strong><em>Melee Weapon Attack:</em> HERE <em>Hit:</em> HERE</li>
+				<p></p>
+				<li><strong><em>Attack. </em></strong><em>Melee Weapon Attack:</em> HERE <em>Hit:</em> HERE</li>
+			</ul>
+			<h4 style="margin-top:10px">Bonus Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Attack. </em></strong><em>Melee Weapon Attack:</em> HERE <em>Hit:</em> HERE</li>
+				<p></p>
+				<li><strong><em>Attack. </em></strong><em>Melee Weapon Attack:</em> HERE <em>Hit:</em> HERE</li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Attack. </em></strong><em>Melee Weapon Attack:</em> HERE <em>Hit:</em> HERE</li>
+				<p></p>
+				<li><strong><em>Attack. </em></strong><em>Melee Weapon Attack:</em> HERE <em>Hit:</em> HERE</li>
+			</ul>
+			<h4 style="margin-top:10px">Legendary Actions</h4>
+			<ul class="unstyled">
+				<p></p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Here. </em></strong> HERE</li>
+				<p></p>
+				<li style="margin-left:1em;text-indent:-1em;"><strong><em>Here. </em></strong> HERE</li>
+			</ul>
+		</description>
+	</element>
+
+	-->
+	
+	
+	
+</elements>

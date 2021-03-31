@@ -669,7 +669,7 @@
 			<ul class="unstyled">
 				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +1 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (ld6 - 1) piercing damage.</li>
 				<p></p>
-				<li><strong><em>Eye Rays. </em></strong><em>The spectator shoots up to two of the following magical eye rays at one or two creatures it can see within 90 feet of it. It can use each ray only once on a turn.</li>
+				<li><strong><em>Eye Rays. </em></strong>The spectator shoots up to two of the following magical eye rays at one or two creatures it can see within 90 feet of it. It can use each ray only once on a turn.</li>
 				<p></p>
 				<li style="text-indent:1em;">1.<em>Confusion Ray. </em>The target must succeed on a DC 13 Wisdom saving throw, or it can’t take reactions until the end of its next turn. On its turn, the target can’t move, and it uses its action to make a melee or ranged attackagainst a randomly determined creature within range. If the target can’t attack, it does nothing on its turn.</li>
 				<li style="text-indent:1em;">2.<em>Paralyzing Ray. </em>The target must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
@@ -784,6 +784,534 @@
 		</description>
 	</element>
 	<!--/Blights-->
+
+	<!--Bugbears-->
+	<element name="Bugbear" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BUGBEAR">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Bugbear</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (goblinoid), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 16 (hide armor, shield)</li>
+				<li><strong>Hit Points</strong>  27 (5d8 + 5)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>15 (+2)</td><td>14 (+2)</td><td>13 (+1)</td><td>8 (-1)</td><td>11 (+0)</td><td>9 (-1)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Stealth +6, Survival +2</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 10</li>
+				<li><strong>Languages</strong> Common, Goblin</li>
+				<li><strong>Challenge</strong> 1 (200 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Brute.</em></strong>  A melee weapon deals one extra die ofits damage when the bugbear hits with it (included in the attack).</li>
+				<p></p>
+				<li><strong><em>Surprise Attack.</em></strong> If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Morningstar. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target <em>Hit:</em> 11 (2d8 + 2) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Attack. </em></strong><em>Melee or Range Weapon Attack:</em> +4 to hit, reach 5 ft. or range 30/120 ft., one target <em>Hit:</em> 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Bugbear Chief" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BUGBEAR_CHIEF">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Bugbear Chief</h3>
+			<p style="margin-bottom:-5px"><em>Medium humanoid (goblinoid), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (chain shirt, shield)</li>
+				<li><strong>Hit Points</strong> 65 (10d8 + 20)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>17 (+3)</td><td>14 (+2)</td><td>14 (+2)</td><td>11 (+0)</td><td>12 (+1)</td><td>11 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Intimidation +2, Stealth +6, Survival +3</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 11</li>
+				<li><strong>Languages</strong> Common, Goblin</li>
+				<li><strong>Challenge</strong> 3 (700 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Brute.</em></strong> A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).</li>
+				<p></p>
+				<li><strong><em>Heart of Hruggek.</em></strong> The bugbear has advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.</li>
+				<p></p>
+				<li><strong><em>Surprise Attack.</em></strong>  If the bugbear surprises a creature and hits it 1 with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The bugbear makes two melee attacks.</li>
+				<p></p>
+				<li><strong><em>Morningstar. </em></strong><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d8 + 3) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Javelin. </em></strong><em>Melee or Range Weapon Attack:</em> +5 to hit, reach 5 ft. or range 30/120 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage in melee or 6 (1d6 + 3) piercing damage at range.</li>
+			</ul>
+		</description>
+	</element>
+	<!--/Bugbears-->
+
+	<element name="Bulette" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BULETTE">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Bulette</h3>
+			<p style="margin-bottom:-5px"><em>Large monstrosity, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (natural armor)</li>
+				<li><strong>Hit Points</strong> 94 (9d10 + 45)</li>
+				<li><strong>Speed</strong> 40 ft., burrow 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>19 (+4)</td><td>11 (+0)</td><td>21 (+5)</td><td>2 (-4)</td><td>10 (+0)</td><td>5 (-3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +6</li>
+				<li><strong>Senses</strong> darkvision 60 ft., tremorsense 60 ft., passive Perception 16</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 5 (1,800 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Standing Leap.</em></strong> The bulette's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 30 (4d12 + 4) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Deadly Leap. </em></strong> If the bulette jumps at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn’t knocked prone, and is pushed 5 feet out of the bulette's space into an unoccupied space ofthe creature’s choice. Ifno unoccupied space is within range, the creature instead falls prone in the bulette’s space.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Bullywug" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BULLYWUG">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Bullywug</h3>
+			<p style="margin-bottom:-5px"><em>Size thing, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 1</li>
+				<li><strong>Hit Points</strong> 0000 (0d0)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Stealth +3</li>
+				<li><strong>Senses</strong> passive Perception 10</li>
+				<li><strong>Languages</strong> Bullywug</li>
+				<li><strong>Challenge</strong> 1/4 (50 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Amphibious.</em></strong> The bullywug can breathe air and water.</li>
+				<p></p>
+				<li><strong><em>Speak with Frogs and Toads.</em></strong> The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug.</li>
+				<p></p>
+				<li><strong><em>Swamp Camouflage.</em></strong> The bullywug has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.</li>
+				<p></p>
+				<li><strong><em>Standing Leap.</em></strong> The bullywug’s long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>  The bullywug makes two melee attacks: one with its bite and one with its spear.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d4 + 1) bludgeoning damage.</li>
+				<p></p>
+				<li><strong><em>Spear. </em></strong><em>. Melee or Ranged Weapon Attack:</em> +3 to hit, reach 5 ft. or range 20/60 ft., one target <em>Hit:</em>  4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Cambion" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_CAMBION">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Cambion</h3>
+			<p style="margin-bottom:-5px"><em>Medium fiend, any evil alignment</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 19 (scale mail)</li>
+				<li><strong>Hit Points</strong> 82 (11d8 + 33)</li>
+				<li><strong>Speed</strong> 30 ft., fly 60 ft</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>18 (+4)</td><td>18 (+4)</td><td>16 (+3)</td><td>14 (+2)</td><td>12 (+1)</td><td>16 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +7, Con +6, Int +5, Cha +6</li>
+				<li><strong>Skills</strong> Deception +6, Intimidation +6, Perception +4, Stealth +7</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 14</li>
+				<li><strong>Languages</strong> Abyssal, Common, Infernal</li>
+				<li><strong>Challenge</strong> 5 (1,800 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Fiendish Blessing.</em></strong> The AC of the cambion includes its Charisma bonus.</li>
+				<p></p>
+				<li><strong><em>Innate Spellcasting.</em></strong> The cambion's spellcasting ability is Charisma (spell save DC 14). The cambion can innately cast the following spells, requiring no material components:</li>
+				<p></p>
+				<li>3/day each: <em>alter self, command, detect magic</em></li>
+				<li>1/day each: <em>plane shift</em> (self only)</li>
+				<p></p>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The cambion makes two melee attacks or uses its Fire Ray twice</li>
+				<p></p>
+				<li><strong><em>Spear. </em></strong><em>Melee or Ranged Weapon Attack:</em> +7 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</li>
+				<p></p>
+				<li><strong><em>Fire Ray. </em></strong><em>Ranged Spell Attack:</em> +7 to hit, range 120 ft., one target <em>Hit:</em> 10 (3d6) fire damage.</li>
+				<p></p>
+				<li><strong><em>Fiendish Charm. </em></strong> One humanoid the cambion can see within 30 feet of it must succeed on a DC 14 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the cambion's spoken commands. If the target suffers any harm from the cambion or another creature or receives a suicidal command from the cambion, the target can repeat the saving throw, ending the effect on itself on a success. If a target’s saving throw is successful, or if the effect ends for it, the creature is immune to the cambion's Fiendish Charm for the next 24 hours.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Carrion Crawler" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_CARRION_CRAWLER">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Carrion Crawler</h3>
+			<p style="margin-bottom:-5px"><em>Large monstrosity, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 13 (natural armor)</li>
+				<li><strong>Hit Points</strong> 51 (6d10 + 18)</li>
+				<li><strong>Speed</strong> 30 ft., climb 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>14 (+2)</td><td>13 (+1)</td><td>16 (+3)</td><td>1 (-5)</td><td>12 (+1)</td><td>5 (-3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +3</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 13</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 2 (450 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Keen Smell.</em></strong> The carrion crawler has advantage on Wisdom (Perception) checks that rely on smell.</li>
+				<p></p>
+				<li><strong><em>Spider Climb.</em></strong> The carrion crawler can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong> The carrion crawler makes two attacks: one with its tentacles and one with its bite.</li>
+				<p></p>
+				<li><strong><em>Tentacles. </em></strong><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one creature. <em>Hit:</em> 4 (1d4 + 2) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (2d4 + 2) piercing damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Centaur" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_CENTAUR">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Centaur</h3>
+			<p style="margin-bottom:-5px"><em>Large monstrosity, neutral good</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 45 (6d10 + 12)</li>
+				<li><strong>Speed</strong> 50 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>18 (+4)</td><td>14 (+2)</td><td>14 (+2)</td><td>9 (-1)</td><td>13 (+1)</td><td>11 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Athletics +6, Perception 13 +3, Survival +3</li>
+				<li><strong>Senses</strong> passive Perception 13</li>
+				<li><strong>Languages</strong> Elvish, Sylvan</li>
+				<li><strong>Challenge</strong> 2 (450 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Charge.</em></strong> If the centaur moves at least 30 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (3d6) piercing damage.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong> The centaur makes two attacks: one with its pike 1 and one with its hooves or two with its longbow.</li>
+				<p></p>
+				<li><strong><em>Pike. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 10 ft., one target. <em>Hit:</em> 9 (1d10 + 4) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Hooves. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) bludgeoning damage.</li>
+				<p></p>
+				<li><strong><em>Longbow. </em></strong><em>Melee Weapon Attack:</em> HERE <em>Hit:</em> HERE</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Chimera" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_CHIMERA">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Chimera</h3>
+			<p style="margin-bottom:-5px"><em>Large monstrosity, chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14 (natural armor)</li>
+				<li><strong>Hit Points</strong> 114 (12d10 + 48)</li>
+				<li><strong>Speed</strong> 30 ft., fly 60 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>19 (+4)</td><td>11 (+0)</td><td>19 (+4)</td><td>3 (-4)</td><td>14 (+2)</td><td>10 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +8</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 18</li>
+				<li><strong>Languages</strong> understands Draconic but can't speak</li>
+				<li><strong>Challenge</strong> 6 (2,300 XP)</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The chimera makes three attacks: one with its bite, one with its horns, and one with its claws. When its fire breath is available, it can use the breath in place of its bite or horns.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Homs. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (1d12 + 4) bludgeoning damage.</li>
+				<p></p>
+				<li><strong><em>Claws. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) slashing damage.</li>
+				<p></p>
+				<li><strong><em>Fire Breath (Recharge 5-6). </em></strong> The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Chuul" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_CHUUL">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Chuul</h3>
+			<p style="margin-bottom:-5px"><em>Large aberration, chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 16 (natural armor)</li>
+				<li><strong>Hit Points</strong> 93 (11d10 + 33)</li>
+				<li><strong>Speed</strong> 30 ft, swim 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>19 (+4)</td><td>10 (+0)</td><td>16 (+3)</td><td>5 (-3)</td><td>11 (+0)</td><td>5 (-3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Perception +4</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 14</li>
+				<li><strong>Languages</strong> understands Deep Speech but can’t speak</li>
+				<li><strong>Challenge</strong> 4 (1,100 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Amphibious.</em></strong> The chuul can breathe air and water.</li>
+				<p></p>
+				<li><strong><em>Sense Magic.</em></strong> The chuul senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn’t itself magical.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The chuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once.</li>
+				<p></p>
+				<li><strong><em>Pincer. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 10 ft., one target. <em>Hit:</em> 11 (2d6 + 4) bludgeoning damage. The target is grappled (escape DC 14) if it is a Large or smaller creature and the chuul doesn't have two other creatures grappled.</li>
+				<p></p>
+				<li><strong><em>Tentacles. </em></strong>One creature grappled by the chuul must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Cloaker" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_CLOAKER">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Cloaker</h3>
+			<p style="margin-bottom:-5px"><em>Large aberration, chaotic neutral</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14 (natural armor)</li>
+				<li><strong>Hit Points</strong> 78 (12d10 + 12)</li>
+				<li><strong>Speed</strong> 10 ft., fly 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>17 (+3)</td><td>5 (+2)</td><td>12 (+1)</td><td>13 (+1)</td><td>12 (+1)</td><td>14 (+2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Stealth +5</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 11</li>
+				<li><strong>Languages</strong> Deep Speech, Undercommon</li>
+				<li><strong>Challenge</strong> 8 (3,900 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Damage Transfer.</em></strong> While attached to a creature, the cloaker takes only half the damage dealt to it (rounded down), and that creature takes the other half.</li>
+				<p></p>
+				<li><strong><em>False Appearance.</em></strong> While the cloaker remains motionless without its underside exposed, it is indistinguishable from a dark leather cloak.</li>
+				<p></p>
+				<li><strong><em>Light Sensitivity.</em></strong> While in bright light, the cloaker has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The cloaker makes two attacks: one with its bite and one with its tail.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one creature. <em>Hit:</em> 10 (2d6 + 3) piercing damage, and ifthe target is Large or smaller, the cloaker attaches to it. Ifthe cloaker has advantage against the target, the cloaker attaches to the target’s head, and the target is blinded and unable to breathe while the cloaker is attached. While attached, the cloaker can make this attack only against the target and has advantage on the attack roll. The cloaker can detach itself by spending 5 feet ofits movement. A creature, including the target, can take its action to detach the cloaker by succeeding on a DC 16 Strength check.</li>
+				<p></p>
+				<li><strong><em>Tail. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 10 ft., one creature. <em>Hit:</em> 7 (1d8 + 3) slashing damage.</li>
+				<p></p>
+				<li><strong><em>Moan. </em></strong>Each creature within 60 feet ofthe cloaker that can hear its moan and that isn’t an aberration must succeed on a DC 13 Wisdom saving throw or become frightened until the end ofthe cloaker’s next turn. If a creature’s saving throw is successful, the creature is immune to the cloaker’s moan for the next 24 hours.</li>
+				<p></p>
+				<li><strong><em>Phantasms (Recharges after a Short or Long Rest). </em></strong>The cloaker magically creates three illusory duplicates of itself if it isn’t in bright light. The duplicates move with it and mimic its actions, shifting position so as to make it impossible to track which cloaker is the real one. If the cloaker is ever in an area of bright light, the duplicates disappear.</li>
+				<li style="text-indent:1em;">Whenever any creature targets the cloaker with an attack or a harmful spell while a duplicate remains, that creature rolls randomly to determine whether it targets the cloaker or one of the duplicates. A creature is unaffected by this magical effect if it can’t see or if it relies on senses other than sight.</li>
+				<li style="text-indent:1em;">A duplicate has the cloaker’s AC and uses its saving throws. If an attack hits a duplicate, or if a duplicate fails a saving throw against an effect that deals damage, the duplicate disappears.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Cockatrice" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_COCKATRICE">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Cockatrice</h3>
+			<p style="margin-bottom:-5px"><em>Small monstrosity, unaligned</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 11</li>
+				<li><strong>Hit Points</strong> 27 (6d6 + 6)</li>
+				<li><strong>Speed</strong> 20 ft., fly 40 ft</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>6 (-2)</td><td>12 (+1)</td><td>12 (+1)</td><td>2 (-4)</td><td>13 (+1)</td><td>5 (-3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 11</li>
+				<li><strong>Languages</strong> —</li>
+				<li><strong>Challenge</strong> 1/2 (100 XP)</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Attack. </em></strong><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one creature <em>Hit:</em> 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Couatl" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_COUATL">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Couatl</h3>
+			<p style="margin-bottom:-5px"><em>Medium celestial, lawful good</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 19 (natural armor)</li>
+				<li><strong>Hit Points</strong> 97 (13d8 + 39)</li>
+				<li><strong>Speed</strong> 30 ft., fly 90 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>16 (+3)</td><td>20 (+5)</td><td>17 (+3)</td><td>18 (+4)</td><td>20 (+5)</td><td>18 (+4)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Con +5, Wis +7, Cha +6</li>
+				<li><strong>Damage Resistances</strong> radiant</li>
+				<li><strong>Damage Immunities</strong> psychic; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Condition Immunities</strong> HERE</li>
+				<li><strong>Senses</strong> truesight 120 ft., passive Perception 15</li>
+				<li><strong>Languages</strong> all, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 4 (1,100 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Innate Spellcasting.</em></strong> The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:</li>
+				<p></p>
+				<li>At will: <em>detect evil and good, detect magic, detect thoughts</em></li>
+				<li>3/day each: <em>bless, createfood and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield</em></li>
+				<li>1/day each: <em>dream, greater restoration, scrying</em></li>
+				<p></p>
+				<li><strong><em>Magic Weapons.</em></strong> The couatl’s weapon attacks are magical.</li>
+				<p></p>
+				<li><strong><em>Shielded Mind.</em></strong> The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one creature. <em>Hit:</em> 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.</li>
+				<p></p>
+				<li><strong><em>Constrict. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 10 ft., one Medium or smaller creature. <em>Hit:</em> 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can’t constrict another target.</li>
+				<p></p>
+				<li><strong><em>Change Shape. </em></strong>The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form ifit dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).</li>
+				<li style="text-indent:1em;">In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those ofthe new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. Ifthe new form has a bite attack, the couatl can use its bite in that form.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Crawling Claw" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_CRAWLING_CLAW">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Crawling Claw</h3>
+			<p style="margin-bottom:-5px"><em>Tiny undead, neutral evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 12</li>
+				<li><strong>Hit Points</strong> 2 (1d4)</li>
+				<li><strong>Speed</strong> 20 ft., climb 20 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>13 (+1)</td><td>14 (+2)</td><td>11 (+0)</td><td>5 (-3)</td><td>10 (+0)</td><td>4 (-3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> charmed, exhaustion, poisoned</li>
+				<li><strong>Senses</strong> blindsight 30 ft. (blind beyond this radius), passive Perception 10</li>
+				<li><strong>Languages</strong> understands Common but can’t speak</li>
+				<li><strong>Challenge</strong> 0 (10 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Turn Immunity.</em></strong> The claw is immune to effects that turn undead.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Attack. </em></strong><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target <em>Hit:</em> 3 (1d4 + 1) bludgeoning or slashing damage (claw’s choice).</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Cyclops" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_CYCLOPS">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Cyclops</h3>
+			<p style="margin-bottom:-5px"><em>Huge giant, chaotic neutral</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 14 (natural armor)</li>
+				<li><strong>Hit Points</strong> 138 (12d12 + 60)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Senses</strong> passive Perception 8</li>
+				<li><strong>Languages</strong> Giant</li>
+				<li><strong>Challenge</strong> 6 (2,300 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Poor Depth Perception.</em></strong> The cyclops has disadvantage on any attack roll against a target more than 30 feet away.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The cyclops makes two greatclub attacks.</li>
+				<p></p>
+				<li><strong><em>Creatclub. </em></strong><em>Melee Weapon Attack:</em> +9 to hit, reach 10 ft., one target. <em>Hit:</em> 19 (3d8 + 6) bludgeoning damage.</li>
+				<p></p>
+				<li><strong><em>Rock. </em></strong><em>Ranged Weapon Attack:</em> +9 to hit, range 30/120 ft., one target. <em>Hit:</em> 28 (4d10 + 6) bludgeoning damage.</li>
+			</ul>
+		</description>
+	</element>
+
 
 
 

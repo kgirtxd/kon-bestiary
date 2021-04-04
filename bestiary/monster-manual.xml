@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="0.0.1">
+		<update version="0.0.0.1">
 			<file name="monster-manual.xml" url="https://raw.githubusercontent.com/Ouroboros-dnd/bestiary/master/bestiary/monster-manual.xml" />
 		</update>
 	</info>
@@ -1452,6 +1452,597 @@
 		</description>
 	</element>
 
+	<!--Demons-->
+	<element name="Balor" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BALOR">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Balor</h3>
+			<p style="margin-bottom:-5px"><em>Hugefiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 19 (natural armor)</li>
+				<li><strong>Hit Points</strong>  262 (21d12+ 126)</li>
+				<li><strong>Speed</strong> 40 ft., fly 80 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>26 (+8)</td><td>15 (+2)</td><td>22 (+6)</td><td>20 (+5)</td><td>16 (+3)</td><td>22 (+6)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +14, Con +12, Wis +9, Cha +12</li>
+				<li><strong>Damage Resistances</strong>  cold, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> fire, poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> truesight 120 ft., passive Perception 13</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 19 (22,000 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Death Throes.</em></strong> When the balor dies, it explodes, and each creature within 30 feet ofit must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren’t being worn or carried, and it destroys the balor’s weapons.</li>
+				<p></p>
+				<li><strong><em>Fire Aura.</em></strong> At the start of each of the balor's turns; each creature within 5 feet of it takes 10 (3d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the balor or hits it with a melee attack while within 5 feet ofit takes 10 (3d6) fire damage.</li>
+				<p></p>
+				<li><strong><em>Magic Resistance.</em></strong> The balor has advantage on saving throws against spells and other magical effects.</li>
+				<p></p>
+				<li><strong><em>Magic Weapons.</em></strong> The balor’s weapon attacks are magical.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The balor makes two attacks: one with its longsword and one with its whip.</li>
+				<p></p>
+				<li><strong><em>Longsword. </em></strong><em>Melee Weapon Attack:</em> +14 to hit, reach 10 ft., one target. <em>Hit:</em>  21 (3d8 + 8) slashing damage plus 13 (3d8) lightning damage. If the balor scores a critical hit, it rolls damage dice three times, instead of twice.</li>
+				<p></p>
+				<li><strong><em>Whip. </em></strong><em>Melee Weapon Attack:</em> +14 to hit, reach 30 ft., one target. <em>Hit:</em> 15 (2d6 + 8) slashing damage plus 10 (3d6) fire damage, and the target must succeed on a DC 20 Strength saving throw or be pulled up to 25 feet toward the balor.</li>
+				<p></p>
+				<li><strong><em>Teleport. </em></strong>The balor magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Barlgura" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_BARLGURA">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Barlgura</h3>
+			<p style="margin-bottom:-5px"><em>Large fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (natural armor)</li>
+				<li><strong>Hit Points</strong>  68 (8d10 + 24)</li>
+				<li><strong>Speed</strong> 30 ft., climb 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>18 (+4)</td><td>15 (+2)</td><td>16 (+3)</td><td>7 (-2)</td><td>14 (+2)</td><td>9 (-1)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Dex +5, Con +6</li>
+				<li><strong>Skills</strong> Perception +5, Stealth +5</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> blindsight 30 ft., darkvision 120 ft., passive Perception 15</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 5 (1,800 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Innate Spellcasting.</em></strong> The barlgura’s spellcasting ability is Wisdom (spell save DC 13). The barlgura can innately cast the following spells, requiring no material components:</li>
+				<p></p>
+				<li>1/day each: <em>entangle, phantasmal force</em></li>
+				<li>2/day each: <em>disguise self, invisibility </em>(self only)</li>
+				<p></p>
+				<li><strong><em>Reckless.</em></strong> At the start of its turn, the barlgura can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.</li>
+				<p></p>
+				<li><strong><em>Running Leap.</em></strong> The barlgura's long jump is up to 40 feet and its high jump is up to 20 feet when it has a running start.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The barlgura makes three attacks: one with its bite and two with its fists.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Fist. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d10 + 4) bludgeoning damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Chasme" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_CHASME">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Chasme</h3>
+			<p style="margin-bottom:-5px"><em>Large fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (natural armor)</li>
+				<li><strong>Hit Points</strong> 84 (13d10 + 13)</li>
+				<li><strong>Speed</strong> 20 ft., fly 60 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>15 (+2)</td><td>15 (+2)</td><td>12 (+1)</td><td>11 (+0)</td><td>14 (+2)</td><td>10 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Dex +5, Wis +5</li>
+				<li><strong>Skills</strong> Perception +5</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> blindsight 10 ft., darkvision 120 ft., passive Perception 15</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 6 (2,300 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Drone.</em></strong> The chasme produces a horrid droning sound to which demons are immune. Any other creature that starts its turn within 30 feet of the chasme must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. A creature that can’t hear the drone automatically succeeds on the save. The effect on the creature ends if it takes damage or if another creature takes an action to splash it with holy water. If a creature’s saving throw is successful or the effect ends for it, it is immune to the drone for the next 24 hours.</li>
+				<p></p>
+				<li><strong><em>Magic Resistance.</em></strong> The chasme has advantage on saving throws against spells and other magical effects.</li>
+				<p></p>
+				<li><strong><em>Spider Climb.</em></strong> The chasme can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Proboscis. </em></strong><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one creature. <em>Hit:</em> 16 (4d6 + 2) piercing damage plus 24 (7d6) necrotic damage, and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. If this effect reduces a creature's hit point maximum to 0, the creature dies. This reduction to a creature's hit point maximum lasts until the creature finishes a long rest or until it is affected by a spell like greater restoration.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Dretch" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_DRETCH">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Dretch</h3>
+			<p style="margin-bottom:-5px"><em>Small fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 11 (natural armor)</li>
+				<li><strong>Hit Points</strong> 18 (4d6 +4)</li>
+				<li><strong>Speed</strong> 20 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>11 (+0)</td><td>11 (+0)</td><td>12 (+1)</td><td>5 (-3)</td><td>8 (-1)</td><td>3 (-4)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Damage Resistances</strong> cold, fire, lightning</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 9</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 60 ft. (works only with creatures that understand Abyssal)</li>
+				<li><strong>Challenge</strong> 1/4 (50 XP)</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The dretch makes two attacks: one with its bite and one with its claws.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d6) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Claws. </em></strong><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (2d4) slashing damage.</li>
+				<p></p>
+				<li><strong><em>Fetid Cloud (1/Day). </em></strong>A 10-foot radius ofdisgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC 11 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Glabrezu" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_GLABREZU">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Glabrezu</h3>
+			<p style="margin-bottom:-5px"><em>Large fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 17 (natural armor)</li>
+				<li><strong>Hit Points</strong> 157 (15d10 + 75)</li>
+				<li><strong>Speed</strong> 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>20 (+5)</td><td>15 (+2)</td><td>21 (+5)</td><td>19 (+4)</td><td>17 (+3)</td><td>16 (+3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +9, Con +9, Wis +7, Cha +7</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> truesight 120 ft., passive Perception 13</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 9 (5,000 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Innate Spellcasting.</em></strong> The glabrezu’s spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components:</li>
+				<p></p>
+				<li>At will: <em>darkness, detect magic, dispel magic</em></li>
+				<li>1/day each: <em>confusion, fly, power Word stun</em></li>
+				<p></p>
+				<li><strong><em>Magic Resistance.</em></strong> The glabrezu has advantage on saving throws against spells and other magical effects.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The glabrezu makes four attacks: two with its pincers and two with its fists. Alternatively, it makes two attacks with its pincers and casts one spell.</li>
+				<p></p>
+				<li><strong><em>Pincer. </em></strong><em>Melee Weapon Attack:</em> +9 to hit, reach 10 ft., one target. <em>Hit:</em> 16 (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target.</li>
+				<p></p>
+				<li><strong><em>Fist. </em></strong><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (2d4 + 2) bludgeoning damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Goristro" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_GORISTRO">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Goristro</h3>
+			<p style="margin-bottom:-5px"><em>Huge fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 19 (natural armor)</li>
+				<li><strong>Hit Points</strong> 310 (23d12 + 161)</li>
+				<li><strong>Speed</strong> 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>25 (+7)</td><td>11 (+0)</td><td>25 (+7)</td><td>6 (-2)</td><td>13 (+1)</td><td>14 (+2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +13, Dex +6, Con +13, Wis +7</li>
+				<li><strong>Skills</strong> Perception +7</li>
+				<li><strong>Damage Resistances</strong>  cold, fire, lightning; bludgeoning, piercing, and slashing from nonmaglcal weapons</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 17</li>
+				<li><strong>Languages</strong> Abyssal</li>
+				<li><strong>Challenge</strong> 17 (18,000 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Charge.</em></strong> If the goristro moves at least 15 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 38 (7d10) piercing damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be pushed up to 20 feet.away and knocked prone.</li>
+				<p></p>
+				<li><strong><em>Labyrinthine Recall.</em></strong> The goristro can perfectly recall any path It has traveled.</li>
+				<p></p>
+				<li><strong><em>Magic Resistance.</em></strong> The goristro has advantage on saving throws against spells and other magical effects.</li>
+				<p></p>
+				<li><strong><em>Siege Monster.</em></strong> The goristro deals double damage to objects and structures.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The goristro makes three attacks: two with its fists and one with its hoof.</li>
+				<p></p>
+				<li><strong><em>Fist. </em></strong><em>Melee Weapon Attack:</em> +13 to hit, reach 10 ft., one target. <em>Hit:</em> 20 (3d8 + 7) bludgeoning damage.</li>
+				<p></p>
+				<li><strong><em>Hoof. </em></strong><em>Melee Weapon Attack:</em> +13 to hit, reach 5 ft., one target. <em>Hit:</em> 23 (3d10 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone.</li>
+				<p></p>
+				<li><strong><em>Gore. </em></strong><em>Melee Weapon Attack:</em> +13 to hit, reach 10 ft., one target. <em>Hit:</em> 45 (7d10+ 7) piercing damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Hezrou" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_HEZROU">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Hezrou</h3>
+			<p style="margin-bottom:-5px"><em>Large fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 16 (natural armor)</li>
+				<li><strong>Hit Points</strong> 136 (13d10 + 65)</li>
+				<li><strong>Speed</strong> 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>19 (+4)</td><td>17 (+3)</td><td>20 (+5)</td><td>5 (-3)</td><td>12 (+1)</td><td>13 (+1)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +7, Con +8, Wis +4</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 11</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 8 (3,900 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Magic Resistance.</em></strong> The hezrou has advantage on saving throws against spells and other magical effects.</li>
+				<p></p>
+				<li><strong><em>Stench.</em></strong> Any creature that starts its turn within 10 feet of the hezrou must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The hezrou makes three attacks; one with its bite and two with its claws.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 15 (2d10 + 4) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Claw. </em></strong><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em>  11 (2d6 + 4) slashing damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Manes" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_MANES">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Manes</h3>
+			<p style="margin-bottom:-5px"><em>Small fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 9</li>
+				<li><strong>Hit Points</strong> 9 (2d6 + 2)</li>
+				<li><strong>Speed</strong> 20 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>10 (+0)</td><td>9 (-1)</td><td>13 (+1)</td><td>3 (-4)</td><td>8 (-1)</td><td>4 (-3)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> HERE</li>
+				<li><strong>Skills</strong> HERE</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> charmed, frightened, poisoned</li>
+				<li><strong>Senses</strong> darkvision 60 ft., passive Perception 9</li>
+				<li><strong>Languages</strong> understands Abyssal but can't speak</li>
+				<li><strong>Challenge</strong> 1/8 (25 XP)</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Claws. </em></strong><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (2d4) slashing damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Marilith" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_MARILITH">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Marilith</h3>
+			<p style="margin-bottom:-5px"><em>Large fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 18 (natural armor)</li>
+				<li><strong>Hit Points</strong> 189 (18d10 + 90)</li>
+				<li><strong>Speed</strong> 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>18 (+4)</td><td>20 (+5)</td><td>20 (+5)</td><td>18 (+4)</td><td>16 (+3)</td><td>20 (+5)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Str +9, Con +10, Wis +8, Cha +10</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> truesight 120 ft., passive Perception 13</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 16 (15,000 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Magic Resistance.</em></strong> The marilith has advantage on saving throws against spells and other magical effects.</li>
+				<p></p>
+				<li><strong><em>Magic Weapons.</em></strong> The marilith's weapon attacks are magical.</li>
+				<p></p>
+				<li><strong><em>Reactive.</em></strong> The marilith can take one reaction on every turn in a combat.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The marilith makes seven attacks: six with its longswords and one with its tail.</li>
+				<p></p>
+				<li><strong><em>Longsword. </em></strong><em>Melee Weapon Attack:</em>  +9 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) slashing damage.</li>
+				<p></p>
+				<li><strong><em>Tail. </em></strong><em>Melee Weapon Attack:</em>  +9 to hit, reach 10 ft., one creature. <em>Hit:</em>  15 (2d10 + 4) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 19). Until this grapple ends, the target is restrained, the marilith can automatically hit the target with its tail, and the marilith can’t make tail attacks against other targets.</li>
+				<p></p>
+				<li><strong><em>Teleport. </em></strong>The marilith magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</li>
+			</ul>
+			<h4 style="margin-top:10px">Reactions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Parry. </em></strong>The marilith adds 5 to its AC against one melee attack that would hit it. To do so, the marilith must see the attacker and be wielding a melee weapon.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Nalfeshnee" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_NALFESHNEE">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Nalfeshnee</h3>
+			<p style="margin-bottom:-5px"><em>Large fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 18 (natural armor)</li>
+				<li><strong>Hit Points</strong>  184 (16d10 + 96)</li>
+				<li><strong>Speed</strong> 20 ft., fly 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td><td>1 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Con +11, Int +9, Wis +6, Cha +7</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> truesight 120 ft., passive Perception 11</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 13 (10,000 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Magic Resistance.</em></strong> The nalfeshnee has advantage on saving throws against spells and other magical effects.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The nalfeshnee uses Horrbr Nimbus if it can. It then makes three attacks: one with its bite and two with its claws.</li>
+				<p></p>
+				<li><strong><em>Bite. </em></strong><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 32 (5d10 + 5) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Claw. </em></strong><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 15 (3d6 + 5) slashing damage.</li>
+				<p></p>
+				<li><strong><em>Horror Nimbus (Recharge 5-6). </em></strong>The nalfeshnee magically emits scintillating, multicolored light. Each creature within 15 feet of the nalfeshnee that can see the light must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee’s Horror Nimbus for the next 24 hours.</li>
+				<p></p>
+				<li><strong><em>Teleport. </em></strong>The nalfeshnee magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Quasit" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_QUASIT">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Quasit</h3>
+			<p style="margin-bottom:-5px"><em>Tiny fiend (demon, shapechanger), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 13</li>
+				<li><strong>Hit Points</strong> 7 (3d4)</li>
+				<li><strong>Speed</strong> 40 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>5 (-3)</td><td>17 (+3)</td><td>10 (+0)</td><td>7 (-2)</td><td>10 (+0)</td><td>10 (+0)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Skills</strong> Stealth +5</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 10</li>
+				<li><strong>Languages</strong> Abyssal, Common</li>
+				<li><strong>Challenge</strong> 1 (200 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Shapechanger.</em></strong> The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn’t transformed. If reverts to its true form if it dies.</li>
+				<p></p>
+				<li><strong><em>Magic Resistance.</em></strong> The quasit has advantage on saving throws against spells and other magical effects.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Claws (Bite in Beast Form). </em></strong><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each ofits turns, ending the effect on itself on a success.</li>
+				<p></p>
+				<li><strong><em>Scare (1/Day). </em></strong>One creature ofthe quasit’s choice within 20 feet ofit must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.</li>
+				<p></p>
+				<li><strong><em>Invisibility. </em></strong>The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Shadow Demon" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_SHADOW_DEMON">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Shadow Demon</h3>
+			<p style="margin-bottom:-5px"><em>Medium fiend (demon), chaotic evil </em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 13</li>
+				<li><strong>Hit Points</strong>  66 (12d8 + 12)</li>
+				<li><strong>Speed</strong>  30 ft., fly 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>1 (-5)</td><td>17 (+3)</td><td>12 (+1)</td><td>14 (+2)</td><td>13 (+1)</td><td>14 (+2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Dex +5, Cha +4</li>
+				<li><strong>Skills</strong> Stealth +7</li>
+				<li><strong>Damage Vulnerabilities</strong> radiant</li>
+				<li><strong>Damage Resistances</strong> acid, fire, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> cold, lightning, poison</li>
+				<li><strong>Condition Immunities</strong> exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 11</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 4 (1,100 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Incorporeal Movement.</em></strong> The demon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</li>
+				<p></p>
+				<li><strong><em>Light Sensitivity.</em></strong> While in bright light, the demon has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</li>
+				<p></p>
+				<li><strong><em>Shadow Stealth.</em></strong> While in dim light or darkness, the demon can take the Hide action as a bonus action.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Claws. </em></strong><em>Melee Weapon Attack:</em>  +5 to hit, reach 5 ft., one creature. <em>Hit:</em> 10 (2d6 + 3) psychic damage or, if the demon had advantage on the attack roll, 17 (4d6 + 3) psychic damage.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Vrock" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_VROCK">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Vrock</h3>
+			<p style="margin-bottom:-5px"><em>Large fiend (demon), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (natural armor)</li>
+				<li><strong>Hit Points</strong> 104 (11d10 + 44)</li>
+				<li><strong>Speed</strong> 40 ft., fly 60 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>17 (+3)</td><td>15 (+2)</td><td>18 (+4)</td><td>8 (-1)</td><td>13 (+1)</td><td>8 (-1)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Dex +5, Wis +4, Cha +2</li>
+				<li><strong>Damage Resistances</strong>  cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 11</li>
+				<li><strong>Languages</strong> Abyssal, telepathy 120 ft.</li>
+				<li><strong>Challenge</strong> 6 (2,300 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Magic Resistance.</em></strong> The vrock has advantage on saving throws against spells and other magical effects.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The vrock makes two attacks: one with its beak and one with its talons.</li>
+				<p></p>
+				<li><strong><em>Beak. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage.</li>
+				<p></p>
+				<li><strong><em>Talons. </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 14 (2d10+ 3) slashing damage.</li>
+				<p></p>
+				<li><strong><em>Spores (Recharge 6). </em></strong>A 15-foot-radius cloud oftoxic spores extends out from the vrock. The spores spread around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each ofits turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it.</li>
+				<p></p>
+				<li><strong><em>Stunning Screech (1/Doy). </em></strong>The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn’t a demon must succeed on a DC 14 Constitution saving throw or be stunned until the end of the vrock’s next turn.</li>
+			</ul>
+		</description>
+	</element>
+
+	<element name="Yochlol" type="Bestiary" source="Monster Manual" id="ID_WOTC_MM_STATBLOCK_YOCHLOL">
+		<description>
+			<h3 style="margin-bottom:-20px;margin-top:-5px">Yochlol</h3>
+			<p style="margin-bottom:-5px"><em>Medium fiend (demon, shapechanger), chaotic evil</em></p>
+			<h4 style="margin-top:5px" />
+			<ul class="unstyled">
+				<li><strong>Armor Class</strong> 15 (natural armor)</li>
+				<li><strong>Hit Points</strong> 136 (16d8 + 64)</li>
+				<li><strong>Speed</strong> 30 ft., climb 30 ft.</li>
+			</ul>
+			<table style="text-align:center;margin-top:10px;margin-bottom:10px">
+				<thead><tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr></thead>
+				<tr><td>15 (+2)</td><td>14 (+2)</td><td>18 (+4)</td><td>13 (+1)</td><td>15 (+2)</td><td>15 (+2)</td></tr>
+			</table>
+			<ul class="unstyled">
+				<li><strong>Saving Throws</strong> Dex +6, Int +5, Wis +6, Cha +6</li>
+				<li><strong>Skills</strong> Deception +10, Insight +6</li>
+				<li><strong>Damage Resistances</strong> cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons</li>
+				<li><strong>Damage Immunities</strong> poison</li>
+				<li><strong>Condition Immunities</strong> poisoned</li>
+				<li><strong>Senses</strong> darkvision 120 ft., passive Perception 12</li>
+				<li><strong>Languages</strong> Abyssal, Elvish, Undercommon</li>
+				<li><strong>Challenge</strong> 10 (5,900 XP)</li>
+			</ul>
+			<h4 style="margin-top:5px; margin-bottom:10px" />
+			<ul class="unstyled">
+				<li><strong><em>Shapechanger.</em></strong> The yochlol can use its action to polymorph into a form that resembles a female drow or giant spider, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.</li>
+				<p></p>
+				<li><strong><em>Magic Resistance.</em></strong> The yochlol has advantage on saving throws against spells and other magical effects.</li>
+				<p></p>
+				<li><strong><em>Spider Climb.</em></strong> The yochlol can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</li>
+				<p></p>
+				<li><strong><em>Innate Spellcasting.</em></strong> The yochlol's spellcasting ability is Charisma (spell save DC 14). The yochlol can innately cast the following spells, requiring no material components:</li>
+				<p></p>
+				<li>At will: <em>detect thoughts, web</em></li>
+				<li>1/day: <em>dominate person</em></li>
+				<p></p>
+				<li><strong><em>Web Walker.</em></strong> The yochlol ignores movement restrictions caused by webbing.</li>
+			</ul>
+			<h4 style="margin-top:10px">Actions</h4>
+			<ul class="unstyled">
+				<li><strong><em>Multiattack. </em></strong>The yochlol makes two melee attacks.</li>
+				<p></p>
+				<li><strong><em>Slam (Bite in Spider Form). </em></strong><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft. (10 ft. in demon form), one target. <em>Hit:</em> 5 (1d6 + 2) bludgeoning (piercing in spider form) damage plus 21 (6d6) poison damage.</li>
+				<p></p>
+				<li><strong><em>Mist Form. </em></strong>The yochlol transforms into toxic mist or reverts to its true form. Any equipment it is wearing or carrying is also transformed. It reverts to its true form if it dies.</li>
+				<li style="text-indent:1em;">While in mist form, the yochlol is incapacitated and can’t speak. It has a flying speed of 30 feet, can hover, and can pass through any space that isn’t airtight. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to nonmagical damage.</li>
+				<li style="text-indent:1em;">While in mist form, the yochlol can enter a creature's space and stop there. Each time that creature starts its turn with the yochlol in its space, the creature must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target is incapacitated.</li>
+			</ul>
+		</description>
+	</element>
 
 
 
